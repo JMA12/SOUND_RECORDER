@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+
+import Recorder from './recorder'
 import './App.css';
 
 const StyledAppContainer = styled.div`
@@ -11,6 +13,7 @@ function App() {
       <h1 className="title">
         SOUND RECORDER
       </h1>
+      <Recorder/>
     </StyledAppContainer>
   );
 }
